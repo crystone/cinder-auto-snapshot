@@ -1,0 +1,16 @@
+[cinder-auto-snapshot]
+# Enable debug mode to show debug output.
+debug = False
+
+# How many days to save the snapshots.
+# If set to for example 7 it will remove the first
+# snapshot that was taken when the 8th snapshot has
+# been taken.
+retention = 7
+
+# This section is pretty self explanatory.
+[keystone]
+auth_url = http://controller:35357/v2.0
+username = admin
+password = ADMIN_PASSWORD
+project_name = admin
