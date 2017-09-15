@@ -1,6 +1,8 @@
+# WARNING! THIS IS NOT MAINTAINED OR USED ANYMORE AND HAS SEVERAL FLAWS AND LEAVES ORPHANED SNAPSHOTS SINCE THEY ARE CREATED ON THE ADMIN ACCOUNT AND NOT CLEANED WHEN A VOLUME IS DELETED
+
 # cinder-auto-snapshot
 Python based script that creates snapshots and deletes old snapshots to perform tasks similar to a backup software.
-Tested on OpenStack Kilo
+Tested on OpenStack Liberty
 
 Any improvements are welcome, feel free to create a pull request.
 
